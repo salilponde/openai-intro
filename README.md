@@ -19,7 +19,7 @@ Windows PowerShell
 Linux/Mac
 
 ```
-source ./venv/bin/activate
+source .venv/bin/activate
 ```
 
 ### Install packages
