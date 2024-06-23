@@ -26,7 +26,7 @@ class MessageHistory:
     def add_message(self, message_type, message_text):
         self.history.append({"role": message_type, "content": message_text})
         if len(self.history) > self.n:
-            self.history.pop(0)
+            self.history.pop(1)
 
     def add_user_message(self, message):
         self.add_message("user", message)
